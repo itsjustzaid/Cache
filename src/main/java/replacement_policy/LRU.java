@@ -10,7 +10,7 @@ public class LRU<K> implements ReplacementPolicy<K> {
     private final DoublyLinkedList<K> list;
     private final Map<K, Node<K>> map;
 
-    LRU() {
+    public LRU() {
         map = new HashMap<>();
         list = new DoublyLinkedList<>();
     }
