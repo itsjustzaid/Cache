@@ -11,8 +11,9 @@ class DoublyLinkedListTest {
     @DisplayName("Given an empty list, when add is called, then head and tail should point to the same node")
     void addFirstElement() {
         DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
-        list.add(1);
+        final Node<Integer> node = list.add(1);
         assertEquals(list.getHead(), list.getTail());
+        assertEquals(node.data, list.getHead().data);
     }
 
     @Test

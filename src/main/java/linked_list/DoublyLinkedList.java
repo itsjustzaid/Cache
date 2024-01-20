@@ -5,17 +5,18 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
     private Node<T> head, tail;
     private Integer size = 0;
     @Override
-    public void add(T data) {
+    public Node<T> add(T data) {
         size += 1;
         if (head == null) {
             head = new Node<>(data);
             tail = head;
-            return;
+            return head;
         }
         Node<T> node = new Node<>(data);
         tail.next = node;
         node.prev = tail;
         tail = node;
+        return tail;
     }
 
     @Override
