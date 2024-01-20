@@ -1,7 +1,7 @@
 package linked_list;
 
 public class Node<T> {
-    T data;
+    public T data;
     Node<T> next, prev;
 
     public Node(T data) {
@@ -9,4 +9,5 @@ public class Node<T> {
         this.next = null;
         this.prev = null;
     }
+
 }

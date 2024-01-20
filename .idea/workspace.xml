@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Initial commit">
+    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add an interface for replacement policy">
       <change afterPath="$PROJECT_DIR$/src/main/java/replacement_policy/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/replacement_policy/ReplacementPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/linked_list/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/linked_list/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DoublyLinkedListTest.removeOneElement">
+  <component name="RunManager" selected="Gradle.DoublyLinkedListTest">
     <configuration name="DoublyLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,12 +183,20 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DoublyLinkedListTest.removeOneElement" />
         <item itemvalue="Gradle.DoublyLinkedListTest" />
-        <item itemvalue="Gradle.DoublyLinkedListTest.removeEmptyList" />
         <item itemvalue="Gradle.DoublyLinkedListTest.addFirstElement" />
+        <item itemvalue="Gradle.DoublyLinkedListTest.removeOneElement" />
+        <item itemvalue="Gradle.DoublyLinkedListTest.removeEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705663935110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Return the added node">
+      <option name="closed" value="true" />
+      <created>1705777075341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705777075341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add an interface for replacement policy">
+      <option name="closed" value="true" />
+      <created>1705777098433</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705777098433</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Return the added node" />
+    <MESSAGE value="Add an interface for replacement policy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add an interface for replacement policy" />
   </component>
 </project>
