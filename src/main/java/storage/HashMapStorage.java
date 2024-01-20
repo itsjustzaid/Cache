@@ -16,15 +16,13 @@ public class HashMapStorage<K, V> implements Storage<K, V> {
 
     @Override
     public void put(K key, V value) {
-        if (!isFull())
-            map.put(key, value);
+        if (!isFull()) map.put(key, value);
         throw new StorageFull("Storage is full.");
     }
 
     @Override
     public V get(K key) {
-        if (map.containsKey(key))
-            return map.get(key);
+        if (map.containsKey(key)) return map.get(key);
         throw new KeyNotFound(key + "not found.");
     }
 
