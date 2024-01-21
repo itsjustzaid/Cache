@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add test for hash map store">
+    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Change type">
+      <change afterPath="$PROJECT_DIR$/src/test/java/replacement_policy/LRUTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/replacement_policy/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replacement_policy/LRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "Gradle.DoublyLinkedListTest.removeEmptyList.executor": "Run",
     "Gradle.DoublyLinkedListTest.removeOneElement.executor": "Run",
     "Gradle.HashMapStorageTest.executor": "Run",
+    "Gradle.LRUTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,11 +84,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="replacement_policy" />
       <recent name="storage" />
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HashMapStorageTest">
+  <component name="RunManager" selected="Gradle.LRUTest">
     <configuration name="DoublyLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,30 +128,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;linked_list.DoublyLinkedListTest.addFirstElement&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DoublyLinkedListTest.removeEmptyList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;linked_list.DoublyLinkedListTest.removeEmptyList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -210,6 +186,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="LRUTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;replacement_policy.LRUTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Remote">
       <option name="credentialProviderId" />
       <option name="regionId" />
@@ -220,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LRUTest" />
         <item itemvalue="Gradle.HashMapStorageTest" />
         <item itemvalue="Gradle.DoublyLinkedListTest" />
         <item itemvalue="Gradle.DoublyLinkedListTest.addFirstElement" />
         <item itemvalue="Gradle.DoublyLinkedListTest.removeOneElement" />
-        <item itemvalue="Gradle.DoublyLinkedListTest.removeEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +318,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705782192596</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add get head and tail function to linked list">
+      <option name="closed" value="true" />
+      <created>1705815299320</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705815299320</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Change type">
+      <option name="closed" value="true" />
+      <created>1705815308886</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705815308886</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +350,8 @@
     <MESSAGE value="Format" />
     <MESSAGE value="Implement cache class" />
     <MESSAGE value="Add test for hash map store" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test for hash map store" />
+    <MESSAGE value="Add get head and tail function to linked list" />
+    <MESSAGE value="Change type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change type" />
   </component>
 </project>
