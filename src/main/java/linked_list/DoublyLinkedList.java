@@ -4,6 +4,7 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
 
     private Node<T> head, tail;
     private Integer size = 0;
+
     @Override
     public Node<T> add(T data) {
         size += 1;
@@ -25,12 +26,12 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
 
         if (node == head) {
             removeHead();
-            size-=1;
+            size -= 1;
             return;
         }
         if (node == tail) {
             removeTail();
-            size-=1;
+            size -= 1;
             return;
         }
         node.prev.next = node.next;
@@ -43,18 +44,20 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
         return size;
     }
 
+    @Override
     public Node<T> getHead() {
         return head;
     }
 
+    @Override
     public Node<T> getTail() {
         return tail;
     }
 
     private void removeHead() {
-        if(head == null) return;
+        if (head == null) return;
 
-        if(head.next != null) {
+        if (head.next != null) {
             head = head.next;
             head.prev = null;
             return;
@@ -65,9 +68,9 @@ public class DoublyLinkedList<T> implements LinkedList<T> {
     }
 
     private void removeTail() {
-        if(tail == null) return;
+        if (tail == null) return;
 
-        if(tail.prev != null) {
+        if (tail.prev != null) {
             tail = tail.prev;
             tail.next = null;
             return;

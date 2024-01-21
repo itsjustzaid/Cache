@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Implement cache class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/storage/HashMapStorageTest.java" afterDir="false" />
+    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add test for hash map store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/storage/HashMapStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked_list/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/replacement_policy/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/replacement_policy/LRU.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705778888520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add test for hash map store">
+      <option name="closed" value="true" />
+      <created>1705782192596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705782192596</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +333,7 @@
     <MESSAGE value="Made policy constructor public" />
     <MESSAGE value="Format" />
     <MESSAGE value="Implement cache class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement cache class" />
+    <MESSAGE value="Add test for hash map store" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for hash map store" />
   </component>
 </project>
