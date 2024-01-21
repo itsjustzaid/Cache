@@ -1,13 +1,14 @@
 package replacement_policy;
 
 import linked_list.DoublyLinkedList;
+import linked_list.LinkedList;
 import linked_list.Node;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class LRU<K> implements ReplacementPolicy<K> {
-    private final DoublyLinkedList<K> list;
+    private final LinkedList<K> list;
     private final Map<K, Node<K>> map;
 
     public LRU() {
