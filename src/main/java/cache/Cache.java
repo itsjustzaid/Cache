@@ -19,7 +19,7 @@ public class Cache<K, V> {
             policy.access(key);
             return store.get(key);
         } catch (KeyNotFound e) {
-            throw new KeyNotFound("Cache doesn't have a key " + key);
+            throw new KeyNotFound("Cache doesn't have a key " + key + ".");
         }
     }
 

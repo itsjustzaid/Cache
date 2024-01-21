@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Change type">
-      <change afterPath="$PROJECT_DIR$/src/test/java/replacement_policy/LRUTest.java" afterDir="false" />
+    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add test for lru policy">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cache/CacheTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/Cache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +56,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CacheTest.executor": "Run",
+    "Gradle.CacheTest.shouldReturnValueForExistingKey.executor": "Run",
     "Gradle.DoublyLinkedListTest.addFirstElement.executor": "Run",
     "Gradle.DoublyLinkedListTest.executor": "Run",
     "Gradle.DoublyLinkedListTest.removeEmptyList.executor": "Run",
@@ -84,12 +87,61 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cache" />
       <recent name="replacement_policy" />
       <recent name="storage" />
       <recent name="linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LRUTest">
+  <component name="RunManager" selected="Gradle.CacheTest">
+    <configuration name="CacheTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cache.CacheTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CacheTest.shouldReturnValueForExistingKey" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;cache.CacheTest.shouldReturnValueForExistingKey&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="DoublyLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -104,54 +156,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;linked_list.DoublyLinkedListTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DoublyLinkedListTest.addFirstElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;linked_list.DoublyLinkedListTest.addFirstElement&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DoublyLinkedListTest.removeOneElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;linked_list.DoublyLinkedListTest.removeOneElement&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -220,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CacheTest" />
+        <item itemvalue="Gradle.CacheTest.shouldReturnValueForExistingKey" />
         <item itemvalue="Gradle.LRUTest" />
         <item itemvalue="Gradle.HashMapStorageTest" />
         <item itemvalue="Gradle.DoublyLinkedListTest" />
-        <item itemvalue="Gradle.DoublyLinkedListTest.addFirstElement" />
-        <item itemvalue="Gradle.DoublyLinkedListTest.removeOneElement" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705815308886</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add test for lru policy">
+      <option name="closed" value="true" />
+      <created>1705824836824</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705824836824</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +364,7 @@
     <MESSAGE value="Add test for hash map store" />
     <MESSAGE value="Add get head and tail function to linked list" />
     <MESSAGE value="Change type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change type" />
+    <MESSAGE value="Add test for lru policy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for lru policy" />
   </component>
 </project>
