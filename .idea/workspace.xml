@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add test for lru policy">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cache/CacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cache/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/Cache.java" afterDir="false" />
+    <list default="true" id="938d13e0-ffcd-4bd5-9bf6-a66b57a84e0b" name="Changes" comment="Add test for cache">
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -346,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705824836824</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add test for cache">
+      <option name="closed" value="true" />
+      <created>1705825943513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705825943513</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +374,7 @@
     <MESSAGE value="Add get head and tail function to linked list" />
     <MESSAGE value="Change type" />
     <MESSAGE value="Add test for lru policy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test for lru policy" />
+    <MESSAGE value="Add test for cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test for cache" />
   </component>
 </project>
